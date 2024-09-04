@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* To stretch the container */
+.container {
+    display: flex;
+    flex: 1;
+    background: white;
+}
+
+.header {
+    border-style: solid;
+    padding: 10px;
+}
+
+.something {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    border-style: solid;
+}
+
+.something li {
+    margin: 0 10px;
+}
+
+.something a {
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    color: black;
+}
+
+.sidebar {
+    border-style: solid;
+    border-width: medium;
+    width: 250px; /* Set the width of the sidebar */
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+.section1, .section2, .section3 {
+    border-style: solid;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.subsection1\.1, .subsection1\.2{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-left-color: deeppink;
+    border-right-color: deeppink;
+    border-top-color: deeppink;
+    border-bottom-color: #CBC3E3;
+    padding: 10px;
+}
+
+.subsection1\.1{
+    border-left-color: deeppink;
+    border-right-color: deeppink;
+    border-top-color: deeppink;
+    border-bottom-color: #CBC3E3;
+}
+
+.subsection1\.2{
+    border-left-color: deeppink;
+    border-right-color: deeppink;
+    border-top-color: #CBC3E3;
+    border-bottom-color: deeppink;
+}
+
+.subsection2\.1, .subsection2\.2{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    padding: 10px;
+}
+
+.subsection2\.1{
+    border-left-color: deeppink;
+    border-right-color: deeppink;
+    border-top-color: deeppink;
+    border-bottom-color: #CBC3E3;
+}
+
+.subsection2\.2{
+    border-left-color: deeppink;
+    border-right-color: deeppink;
+    border-top-color: #CBC3E3;
+    border-bottom-color: deeppink;
+}
+.footer {
+    border-style: solid;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
